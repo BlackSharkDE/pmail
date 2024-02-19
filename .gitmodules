@@ -1,0 +1,6 @@
+[submodule "backend/database/php_pdointerface"]
+	path = backend/database/php_pdointerface
+	url = http://192.168.100.4:3000/Joe-Dev/php_pdointerface.git
+[submodule "backend/modes/sendmail/phpmailer"]
+	path = backend/modes/sendmail/phpmailer
+	url = http://192.168.100.4:3000/Joe-Dev/phpmailer.git

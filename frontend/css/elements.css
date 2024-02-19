@@ -1,0 +1,102 @@
+/**
+ * Elemente in der Anwendung
+ */
+
+/*========================================================================================================================================*/
+
+/*Elemente, Die Dinge beinhalten*/
+.APP__CONTAINER {
+    color: #ffffff;
+    background-color: #2b2b2b;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 20px;
+
+    /*Elemente innerhalb zentrieren*/
+    text-align: center;
+}
+
+/*========================================================================================================================================*/
+
+.APP__BIG {
+
+    /*Größe*/
+    width: 94%;
+    min-height: 75.5vh;
+
+    padding: 20px;
+
+    /*Horizonzal mittig*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Aufreihende Elemente*/
+.APP_CONTAINER__LIST_ITEM {
+    display: inline-block;
+
+    background-color: #000000;
+
+    /*Größe*/
+    width: 130px;
+    height: 130px;
+
+    box-shadow: 0px 0px 20px #000000;
+    border-radius: 20px;
+
+    /*Abstand zueinander*/
+    margin-left: 10px;
+    margin-right: 10px;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.APP_DIVIDER {
+    height: 6px;
+    background-color: #FFCC00;
+    border: none;
+}
+
+/*========================================================================================================================================*/
+/*Tabellen*/
+
+.APP__CONTAINER__TABLE {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.APP__CONTAINER__TABLE th,td {
+    border: 2px solid #ffffff;
+}
+
+.APP__CONTAINER__TABLE__WITH_BG tr:nth-child(even) {
+    background-color: #5e5e5e;
+}
+
+/*========================================================================================================================================*/
+/*Login - Formular*/
+
+.APP__LOGIN {
+
+    /*Größe*/
+    height: auto;
+    width: 300px;
+
+    /*Zentriert in body*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.APP__WARNING {
+    color: #ff0000;
+    font-size: 12pt;
+}
+
+.APP__SUCCESS {
+    color: #00ff2a;
+    font-size: 12pt;
+}
+
+/*========================================================================================================================================*/
